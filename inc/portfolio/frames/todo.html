@@ -1,0 +1,27 @@
+	<section class="plain-portfolio-inner apps">
+		<h2>ToDo!<span>Click to interact!</span></h2>
+		
+		<div class="mobile-display">
+			<h3>Portrait:</h3>
+			<div class="vertical"><div class="scroll"><img src="img/app/ToDo2.png" /></div></div>
+			<h3>Landscape:</h3>
+			<div class="horizontal"><div class="scroll"><img src="img/app/ToDo.png" /></div></div>
+			<p><img src="img/humans.png" /><a href="http://www.thedesignlabproject.com/projies/ToDoApp/humans.txt" target="_blank">View the humans.txt file!</a></p>
+		</div>
+		
+		<p>
+			ToDo! is a simple to do list that allows for a priority level to be set and a text description to be entered. It stores the information in an array using the
+			localstorage API new with the HTML5 spec. An alternative to cookies, small text files stored on your computer, localstorage poses no security risks or features
+			desirable to spammers and scam artists. As such it has become the preferred method of the W3C for simple data persistence applications.
+		</p>
+		
+	</section>
+	
+	<script type="text/javascript">
+		
+		$('.mobile-display img').css('cursor', 'pointer');
+		$('.mobile-display img').on('click', function(){ $(this).parent().removeClass('scroll'); $(this).replaceWith('<iframe src="http://www.thedesignlabproject.com/projies/ToDoApp/"></iframe>'); });
+		
+		$('.ajax-popup > a').replaceWith('<a href="http://www.thedesignlabproject.com/projies/ToDoApp/" class="lab-logo" target="_blank"><img src="img/TheDesignLab_md.png" class="lab-logo">Check out ToDo!</a>');
+	
+	</script>

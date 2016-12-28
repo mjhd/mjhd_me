@@ -1,0 +1,25 @@
+	<section class="plain-portfolio-inner apps">
+		<h2>whereUat?<span>Click to interact!</span></h2>
+		
+		<div class="mobile-display">
+			<h3>Portrait:</h3>
+			<div class="vertical"><div><img src="img/app/whereUat1.png" /></div></div>
+			<h3>Landscape:</h3>
+			<div class="horizontal"><div><img src="img/app/whereUat_landscape.png" /></div></div>
+			<p><img src="img/humans.png" /><a href="http://www.thedesignlabproject.com/projies/whereUat%3f/humans.txt" target="_blank">View the humans.txt file!</a></p>
+		</div>
+		
+		<p>
+			The whereUat? prototype. whereUat? is a social style group location app built on Google Maps API v3 using geolocation. It is designed with a friend based request and add, group location sharing experience. All geolocation requests must be approved by the user every time the request is made and all members of a group are visible to each other at all times to prevent abuse. The concept is designed around the social scene - where your friends are to meet up, how far away your ride is to you and exactly where you are to your ride etc. The app can also be easily used for commercial purposes like ridesharing, delivery, or roadside assistance and more.
+		</p>
+		
+	</section>
+	
+	<script type="text/javascript">
+		
+		$('.mobile-display img').css('cursor', 'pointer');
+		$('.mobile-display img').on('click', function(){ $(this).parent().removeClass('scroll'); $(this).replaceWith('<iframe src="http://www.thedesignlabproject.com/projies/whereUat%3f/"></iframe>'); });
+		
+		$('.ajax-popup > a').replaceWith('<a class="lab-logo" href="http://www.thedesignlabproject.com/projies/whereUat%3f/" target="_blank"><img src="img/TheDesignLab_md.png" class="lab-logo">Check out whereUat?</a>');
+	
+	</script>

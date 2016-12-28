@@ -1,0 +1,120 @@
+ _____ ______         ___  ___  ___  ________      _____ ______   _______      
+|\   _ \  _   \      |\  \|\  \|\  \|\   ___ \    |\   _ \  _   \|\  ___ \     
+\ \  \\\__\ \  \     \ \  \ \  \\\  \ \  \_|\ \   \ \  \\\__\ \  \ \   __/|    
+ \ \  \\|__| \  \  __ \ \  \ \   __  \ \  \ \\ \   \ \  \\|__| \  \ \  \_|/__  
+  \ \  \    \ \  \|\  \\_\  \ \  \ \  \ \  \_\\ \ __\ \  \    \ \  \ \  \_|\ \ 
+   \ \__\    \ \__\ \________\ \__\ \__\ \_______\\__\ \__\    \ \__\ \_______\
+    \|__|     \|__|\|________|\|__|\|__|\|_______\|__|\|__|     \|__|\|_______|
+                                                                               
+                                                                               
+
+/* TEAM */
+
+the DevLab Project
+
+Developer: MJHdesigner
+Email: thedesignlabproject@gmail.com
+Facebook: https://www.facebook.com/mj.hdesigner.5
+From: San Diego, California, U.S.A.
+Title: Janitor
+
+
+/* SITE */
+
+Site-name: MJHd.me
+CreationDate: 2015/02/01
+Doctype: HTML5
+Standards: HTML5, CSS3, jQuery 1.11.0
+Language:English
+Version: 1.0.0
+
+/* THANKS */
+
+__Scripts&Plugins__
+
+Toolname: iDangerous slider
+Author: iDangero.us
+Url: http://www.idangero.us/swiper/#.VOOqfPl4otY
+
+Toolname: Lazy Load Plugin for jQuery
+Author: Mika Tuupola
+Url: http://www.appelsiini.net/projects/lazyload
+
+Toolname: jquery-zclip(zClip addon)
+Author: Patrick Lodder
+Url: https://github.com/patricklodder/jquery-zclip
+
+Toolname: zClip
+Author: SteamDev
+Url: http://steamdev.com/zclip/
+
+__Stylesheets__
+
+Toolname: normalize.css
+Author: Nicolas Gallagher, Jonathan Neal
+Url: http://necolas.github.io/normalize.css/
+
+__Icons__
+
+Author: Iconmonstr
+Source: http://iconmonstr.com
+Url: http://iconmonstr.com/arrow-24-icon
+
+Author: Iconmonstr
+Source: http://iconmonstr.com
+Url: http://iconmonstr.com/mobile-phone-6-icon
+
+Author: Iconmonstr
+Source: http://iconmonstr.com
+Url: http://iconmonstr.com/email-2-icon
+
+Author: hakane
+Source: http://www.123rf.com
+Url: http://www.123rf.com/profile_hakane
+
+__Stock Backgrounds__
+
+Author: Emanuele Gnani
+Source: http://www.123rf.com
+Url: http://www.123rf.com/profile_kamigami
+
+Author: mika48
+Source: http://www.123rf.com
+Url: http://www.123rf.com/profile_mika48
+
+__Fonts__
+
+Author: Karolina Lach
+Source: https://www.google.com/fonts
+Url: https://www.google.com/fonts/specimen/Courgette
+
+Author: Impallari Type
+Source: https://www.google.com/fonts
+Url: https://www.google.com/fonts/specimen/Libre+Baskerville
+
+Author: Denis Jacquerye
+Source: https://www.google.com/fonts
+Url: https://www.google.com/fonts/specimen/Molengo
+
+__ASCII Art__
+
+Author: Patrick Gillespie
+Url: http://patorjk.com/software/taag
+
+Author: JRO
+Url: http://www.ascii-art.de/ascii/xyz/xxx.txt
+
+
+
+                     `.         
+                       `.        
+           \             `,      
+            \              \     
+             \             ;\_   
+              .            ::.)  
+       ,::,   |            `:|   
+      ;:():   |              '   
+       `::'   ':            /    
+             /::.          /     
+,         _,':"   -.____,'      
+  `'--..--'                   

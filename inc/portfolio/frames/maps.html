@@ -1,0 +1,28 @@
+	<section class="plain-portfolio-inner apps">
+		<h2>Palomar Campus Locator<span>Click to interact!</span></h2>
+		
+		<div class="mobile-display">
+			<h3>Portrait:</h3>
+			<div class="vertical"><div><img src="img/app/palomar1.png" /></div></div>
+			<h3>Landscape:</h3>
+			<div class="horizontal"><div class="scroll"><img src="img/app/palomar2.png" /></div></div>
+			<p><img src="img/humans.png" /><a href="http://www.thedesignlabproject.com/projies/PalomarLocationApp/humans.txt" target="_blank">View the humans.txt file!</a></p>
+		</div>
+		
+		<p>
+			My final WebApps project was a geolocation tool to find Palomar College campus locations in San Diego county. Once a location is selected you are provided text directions 
+			from your current location and a hidden map is generated. Since this is meant primarily for mobile devices - the map remains hidden until you select it, then fades in. 
+			This was the second app I had made using both geolocation and Google Maps API v3, it also features SVG graphics and responsive design which is very comfortable to use on 
+			a desktop as well...
+		</p>
+		
+	</section>
+	
+	<script type="text/javascript">
+		
+		$('.mobile-display img').css('cursor', 'pointer');
+		$('.mobile-display img').on('click', function(){ $(this).parent().removeClass('scroll'); $(this).replaceWith('<iframe src="http://www.thedesignlabproject.com/projies/PalomarLocationApp/"></iframe>'); });
+		
+		$('.ajax-popup > a').replaceWith('<a href="http://www.thedesignlabproject.com/projies/PalomarLocationApp/" class="lab-logo" target="_blank"><img src="img/TheDesignLab_md.png" class="lab-logo">Check out Palomar Campus Locator</a>');
+	
+	</script>

@@ -1,0 +1,28 @@
+	<section class="plain-portfolio-inner apps">
+		<h2>Gourmet Pizzaria<span>Click to interact!</span></h2>
+		
+		<div class="mobile-display">
+			<h3>Portrait:</h3>
+			<div class="vertical"><div><img src="img/app/pizzeria1.png" /></div></div>
+			<h3>Landscape:</h3>
+			<div class="horizontal"><div class="scroll"><img src="img/app/pizzeria1_landscape.png" /></div></div>
+			<p><img src="img/humans.png" /><a href="http://www.thedesignlabproject.com/projies/PizzeriaApp/humans.txt" target="_blank">View the humans.txt file!</a></p>
+		</div>
+		
+		<p>
+			The Gourmet Pizzaria, San Marcos' finest imaginary pizza joint. Another class project, this time far less impressive in stature - but sporting some interesting features.
+			For starters, it has a really usable interface, with custom graphics in place of standard HTML inputs for usability. It's also the first time I had introduced conditional
+			fields based on the logic of user selections. For example, if the user selects "for delivery" then a field for address appears (and is now required). For these reasons I 
+			decided to include it on the site.
+		</p>
+		
+	</section>
+	
+	<script type="text/javascript">
+		
+		$('.mobile-display img').css('cursor', 'pointer');
+		$('.mobile-display img').on('click', function(){ $(this).parent().removeClass('scroll'); $(this).replaceWith('<iframe src="http://www.thedesignlabproject.com/projies/PizzeriaApp/"></iframe>'); });
+		
+		$('.ajax-popup > a').replaceWith('<a href="http://www.thedesignlabproject.com/projies/PizzeriaApp/" class="lab-logo" target="_blank"><img src="img/TheDesignLab_md.png" class="lab-logo">Check out Gourmet Pizzaria</a>');
+		
+	</script>

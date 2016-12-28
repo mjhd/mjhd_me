@@ -1,0 +1,27 @@
+	<section class="plain-portfolio-inner apps">
+		<h2>Appy<span>Click to interact!</span></h2>
+		
+		<div class="mobile-display">
+			<h3>Portrait:</h3>
+			<div class="vertical"><div class="scroll"><img src="img/app/Appy.png" /></div></div>
+			<h3>Landscape:</h3>
+			<div class="horizontal"><div class="scroll"><img src="img/app/Appy.png" /></div></div>
+			<p><img src="img/humans.png" /><a href="http://www.thedesignlabproject.com/projies/FrameworkFactory/Appy/humans.txt" target="_blank">View the humans.txt file!</a></p>
+		</div>
+		
+		<p>
+			Appy is my first attempt at an online application interface. It was an addon feature to an old project called The Framework Factory, which was a project I reused in 
+			several development classes (shhh don't tell). It contains a few of my first dynamic front-end applications including a super basic CSS3 animation, some visual area 
+			calculation tools, and percent calculators.
+		</p>
+		
+	</section>
+	
+	<script type="text/javascript">
+		
+		$('.mobile-display img').css('cursor', 'pointer');
+		$('.mobile-display img').on('click', function(){ $(this).parent().removeClass('scroll'); $(this).replaceWith('<iframe src="http://www.thedesignlabproject.com/projies/FrameworkFactory/Appy/"></iframe>'); });
+		
+		$('.ajax-popup > a').replaceWith('<a href="http://www.thedesignlabproject.com/projies/FrameworkFactory/Appy/" class="lab-logo" target="_blank"><img src="img/TheDesignLab_md.png" class="lab-logo">Check out Appy</a>');
+	
+	</script>

@@ -1,0 +1,27 @@
+	<section class="plain-portfolio-inner apps">
+		<h2>Battle Royale<span>Click to interact!</span></h2>
+		
+		<div class="mobile-display">
+			<h3>Portrait:</h3>
+			<div class="vertical"><div><img src="img/app/BattleRoyal.png" /></div></div>
+			<h3>Landscape:</h3>
+			<div class="horizontal"><div><img src="img/app/BattleRoyal2.png" /></div></div>
+			<p><img src="img/humans.png" /><a href="http://www.thedesignlabproject.com/projies/BattleRoyal/humans.txt" target="_blank">View the humans.txt file!</a></p>
+		</div>
+		
+		<p>
+			Battle Royale is a playful comparison staged as a "battle" between various web technologies organized into two groups: Camp HTML5 and The jQuery Alliance. This was my final projects from SDCE's
+			Web Specialist program... It's always been one of my favorite projects because of its unique slider in slider layout and the use of so many different visual styles in one
+			project. That and it was fun as hell to make...
+		</p>
+		
+	</section>
+	
+	<script type="text/javascript">
+	
+		$('.mobile-display img').css('cursor', 'pointer');
+		$('.mobile-display img').on('click', function(){ $(this).parent().removeClass('scroll'); $(this).replaceWith('<iframe src="http://www.thedesignlabproject.com/projies/BattleRoyal/"></iframe>'); $('.mobile-display div.scroll').removeClass('scroll'); });
+		
+		$('.ajax-popup > a').replaceWith('<a href="http://www.thedesignlabproject.com/projies/BattleRoyal/" class="lab-logo" target="_blank"><img src="img/TheDesignLab_md.png" class="lab-logo">Check out Battle Royale</a>');
+	
+	</script>

@@ -1,0 +1,10 @@
+<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="582" height="402" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <polygon transform="rotate(-180 20.112804412841797,20.000030517578125) " fill="black" points="14.129779815673828,38.51222610473633 7.671794891357422,32.08481216430664 19.698986053466797,20.000030517578125 7.671794891357422,7.915073394775391 14.129779815673828,1.4878350496292114 32.55381393432617,20.000030517578125 " id="arrow-24-icon"/>
+ </g>
+</svg>
